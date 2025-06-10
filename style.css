@@ -126,9 +126,11 @@
 
             .nav-menu.show {
                 display: flex;
-                margin-right: 59%;
+               margin-right: 56%;
                 margin-bottom:20%;
-                margin-top: -13%;
+                margin-top: -16%;
+               
+            
             }
 
             #menu-open-button {
