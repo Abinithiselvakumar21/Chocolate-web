@@ -682,6 +682,46 @@ h1 {
         padding: 15px 40px;
     }
 }
+.order-btn {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.order-btn .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.order-btn .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile view (for screens less than 600px wide) */
+@media (max-width: 600px) {
+  .order-btn {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .order-btn .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .order-btn .btn:last-child {
+    margin-bottom: 0;
+  }
+}
 
 
 
